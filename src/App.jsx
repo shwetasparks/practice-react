@@ -9,6 +9,7 @@ import Change from "./change.jsx";
 import ColorPickerr from "./ColorPicker.jsx";
 import ObjectCar from "./ObjectCar.jsx";
 import ArrayState from "./ArrayState.jsx";
+import ArrayofObject from "./ArrayofObject.jsx";
 
 // import List from "./List.jsx";
 
@@ -16,6 +17,8 @@ function App() {
   
    return (
       <>
+         {" "}
+         <ArrayofObject />
          <ArrayState />
          <ObjectCar />
          <ColorPickerr />
