@@ -6,8 +6,8 @@ import ProfilePic from "./ProfilePic.jsx";
 import Comp from "./Comp.jsx";
 import Counter from "./Counter.jsx";
 import Change from "./change.jsx";
-import colorPickerr from "./colorPicker.jsx";
-import objectCar from "./objectCar.jsx";
+import ColorPickerr from "./ColorPicker.jsx";
+import ObjectCar from "./ObjectCar.jsx";
 
 // import List from "./List.jsx";
 
@@ -15,8 +15,8 @@ function App() {
   
    return (
       <>
-         <objectCar />
-         <colorPickerr />
+         <ObjectCar />
+         <ColorPickerr />
          <Change />
          <Counter />
          <Comp />

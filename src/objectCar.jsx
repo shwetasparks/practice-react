@@ -1,4 +1,5 @@
-function objectCar() {
+import { useState } from "react";
+function ObjectCar() {
    const [car, setCar] = useState({
       year: 2024,
       model: "ford",
@@ -33,4 +34,4 @@ function objectCar() {
    );
 }
 
-export default objectCar;
+export default ObjectCar;
