@@ -1,0 +1,52 @@
+.card {
+   border: 2px solid rgb(80, 78, 78);
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px;
+   margin: 10px;
+   text-align: center;
+   max-width: 300px;
+}
+.card .card-image {
+   max-width: 70%;
+   height: auto;
+   border-radius: 50%;
+   margin-bottom: 10px;
+}
+.card .title {
+   font-family: sans-serif;
+   margin: 0;
+   color: rgb(65, 65, 152);
+}
+.card .card-text {
+   font-family: Hevelica;
+   color: green;
+}
+
+.student {
+   font-family: arial, sans-serif;
+   font-size: 2em;
+   padding: 10px;
+   border: 2px solid rgb(67, 63, 63);
+   margin: 20px 20px;
+}
+.welcome {
+   font-size: 2.5em;
+   background-color: cadetblue;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.login {
+   background-color: brown;
+   color: white;
+   font-size: 2.5rem;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.color-picker{
+   display: flex;
+   flex-direction: column;
+}
