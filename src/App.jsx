@@ -8,6 +8,7 @@ import Counter from "./Counter.jsx";
 import Change from "./change.jsx";
 import ColorPickerr from "./ColorPicker.jsx";
 import ObjectCar from "./ObjectCar.jsx";
+import ArrayState from "./ArrayState.jsx";
 
 // import List from "./List.jsx";
 
@@ -15,6 +16,7 @@ function App() {
   
    return (
       <>
+         <ArrayState />
          <ObjectCar />
          <ColorPickerr />
          <Change />
@@ -30,7 +32,6 @@ function App() {
          <Students name="divyansh" age={90} isStudent={false} />
          <Students />
          <UserGreeting isLoggedIn={false} username="shweta" />
-     
       </>
    );
 }
